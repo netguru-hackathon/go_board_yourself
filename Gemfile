@@ -6,7 +6,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'sqlite3'
 gem 'uglifier'
-gem 'sidekiq'
+gem 'delayed_job_active_record'
 gem 'attr_extras'
 
 group :development, :test do
