@@ -1,0 +1,66 @@
+Setup
+* install necessities
+  * git
+  * rvm
+  * ruby
+  * rails
+* configure git
+* pull repo, launch server, open site
+
+some sample flow:
+* fill in email creds
+* take a picture - drag & drop - write hello message -> send hello
+* change password + two step auth
+
+Problems that might arise:
+* how to resolve configs for apps? (sublime)
+* not all the things we can do at first
+  - during the setup let's gradually build the app - for example after pushing ssh key, we can update gemfile, bundle it and progress with the setup (for devs for example?)
+
+Ideas
+* resolve onboarding
+* resolve mentor mundane tasks (tell about some flows, remind about hellos etc)
+* have a common setup (editors etc, databases, npm, rvm > rbenv)
+* adding new dependencies should be as easy as adding a line in yml file
+* adding a new step should be really easy - how?
+  * rich yaml file?
+  * simple controller action?
+  * maybe a model and use some wizardy? (maybe something that edyta did?)
+* it should also be used as a checklist for onboarder and mentor?
+  - maybe send summaries to them? (select2 that pulls data from people?)
+  - if steps will be a yaml file it could be easily revised and corrected?
+* tell the story behind the scenes
+  - we've generated ssh keys
+  - installed apps
+  - etc
+
+MVP:
+install necessities
+pull repo and fire app
+have a single task to mark as done
+framework for adding new apps
+framework for adding new steps - markdown!
+we can skip some hard stuff (pushing ssh keys? sending mails? puting all config files?)
+
+Tasks:
+* sidekiq
+* run install in the background
+* present first task
+* enable check task as done
+
+
+Additional to install:
+* chrome
+* iterm
+* zsh
+* postgresql
+* pgadmin3
+* mongo
+* mysql
+* karabiner
+* Seil
+* slack
+* xcode
+* screenhero
+* great .dotfiles
+* generate ssh keys
